@@ -1,0 +1,64 @@
+                          +----------------------+
+                          |       End Users      |
+                          |----------------------|
+                          | Small Business Owners|
+                          | Customers            |
+                          +----------------------+
+                                     |
+                                     v
+                     +------------------------------+
+                     |        Svelte Front-End      |
+                     |  (Azure Static Web Apps)     |
+                     +------------------------------+
+                                     |
+                                     v
+       +--------------------------+          +---------------------------+
+       | Azure AD B2C            |<-------->|      Azure API Gateway     |
+       | (Authentication)        |          | (Routes API Requests,      |
+       | (Google/MS Login)       |          | Enforces API Key Security) |
+       +--------------------------+          +---------------------------+
+                                     |
+                                     v
+        +------------------------------------------------------------+
+        |                   Azure Serverless Functions               |
+        |------------------------------------------------------------|
+        |  1. User Management (e.g., CreateUser)                     |
+        |  2. Booking Management (e.g., CreateBooking, GetBookings)  |
+        |  3. AI Optimization (Calls Azure OpenAI to optimize data)  |
+        |  4. Fetch Weekly Data from Database                        |
+        +------------------------------------------------------------+
+                                     |
+                                     v
+        +-------------------------------------------------------------+
+        |                         Data Storage                         |
+        |-------------------------------------------------------------|
+        |  +---------------------+     +----------------------------+ |
+        |  | Azure Cosmos DB     |     | Azure SQL Database         | |
+        |  | Primary Data Store  |     | Secondary Use Cases:       | |
+        |  | (e.g., Appointments)|     | Debugging, Special Logs    | |
+        |  +---------------------+     +----------------------------+ |
+        |                                                             |
+        |  +---------------------+                                    |
+        |  | Azure Key Vault     |                                    |
+        |  | Secures Secrets     |                                    |
+        |  | (e.g., DB Keys, AI  |                                    |
+        |  | API Keys)           |                                    |
+        |  +---------------------+                                    |
+        +-------------------------------------------------------------+
+                                     |
+                                     v
+                   +---------------------------------------+
+                   | Azure OpenAI (or Cognitive Services) |
+                   | AI for Scheduling Optimization       |
+                   +---------------------------------------+
+                                     |
+                                     v
+              +---------------------------------------------+
+              |   Azure Application Insights (Monitoring)  |
+              |---------------------------------------------|
+              | Tracks performance, errors, logs for:      |
+              | - API Gateway                              |
+              | - Azure Functions                          |
+              | - Cosmos DB                                |
+              | Helps Debugging & Improving Performance    |
+              +---------------------------------------------+
