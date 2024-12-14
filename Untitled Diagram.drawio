@@ -1,9 +1,181 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="25.0.3">
   <diagram name="Page-1" id="5x9vWL6dTgqOsL3r4RSL">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="750" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-1" target="EvFaAlKfoVW_2L7JskMp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-1" value="&lt;b&gt;Website Front-End&lt;/b&gt;&lt;div&gt;Svelte, HTML, CSS, Bootstrap, Templates.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;JavaScript to interface w/ API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="321" y="140" width="186" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-2" target="EvFaAlKfoVW_2L7JskMp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="590" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-2" target="EvFaAlKfoVW_2L7JskMp-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-2" target="EvFaAlKfoVW_2L7JskMp-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="410" />
+              <mxPoint x="310" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-2" target="EvFaAlKfoVW_2L7JskMp-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="430" />
+              <mxPoint x="520" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-2" target="EvFaAlKfoVW_2L7JskMp-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="400" />
+              <mxPoint x="645" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-2" value="&lt;b&gt;Azure API gateway&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Link front-end to back-end operations&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-3" target="EvFaAlKfoVW_2L7JskMp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-3" value="&lt;b&gt;Azure AD B2C&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If external identities are required (Sign in w/ Google)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-7" value="&lt;b&gt;Simple user creation function&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Add to document database&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-8" target="EvFaAlKfoVW_2L7JskMp-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="550" />
+              <mxPoint x="230" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-8" value="&lt;b&gt;Booking creation&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Analyse schedule, can input vague requirements, get back 3 optimal times&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-9" value="&lt;b&gt;Get all data from DB&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Used to display each week&#39;s schedule on the interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-10" value="&lt;b&gt;Produces a draft optimised schedule&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Compares current booking schedule with AI optimised version (grouping bookings by a type, time or other)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="575" y="445" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-11" target="EvFaAlKfoVW_2L7JskMp-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-11" target="EvFaAlKfoVW_2L7JskMp-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="660" />
+              <mxPoint x="290" y="600" />
+              <mxPoint x="520" y="600" />
+              <mxPoint x="520" y="540" />
+              <mxPoint x="490" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-11" value="&lt;b&gt;Azure CosmosDB&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Primary data store for all main program use-cases&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-12" target="EvFaAlKfoVW_2L7JskMp-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="670" />
+              <mxPoint x="630" y="590" />
+              <mxPoint x="640" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-12" value="&lt;b&gt;Azure OpenAI&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Using GPT models to provide recommendations through Azure in JSON&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="640" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-13" target="EvFaAlKfoVW_2L7JskMp-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="660" />
+              <mxPoint x="780" y="250" />
+              <mxPoint x="530" y="250" />
+              <mxPoint x="530" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-13" target="EvFaAlKfoVW_2L7JskMp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-13" value="&lt;b&gt;Azure Key Vault&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Secure storage of secrets (ensure only clients with active issues keys can use)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-14" target="EvFaAlKfoVW_2L7JskMp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-14" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-18" value="Use of the API requires an API key for security" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="410" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-31" value="&lt;b&gt;Azure Serverless Function Stack&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="540" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-35" value="Authenticated with API key at every point" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="507" y="600" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-36" target="EvFaAlKfoVW_2L7JskMp-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="600" />
+              <mxPoint x="520" y="600" />
+              <mxPoint x="520" y="540" />
+              <mxPoint x="490" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-36" value="&lt;b&gt;Azure SQL server &amp;amp; DB&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Secondary store for minor use-cases (debugging logs, owner special logins, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="146" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-38" value="/createUser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="328" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-39" value="/createBooking" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EvFaAlKfoVW_2L7JskMp-7" target="EvFaAlKfoVW_2L7JskMp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-42" value="/getBookings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-44" value="Action &amp;amp;&lt;div&gt;change logged&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-45" value="Regular&amp;nbsp;&lt;div&gt;backups&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="710" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-46" value="Different tables&amp;nbsp;&lt;div&gt;for client instance&amp;nbsp;&lt;/div&gt;&lt;div&gt;(for both DBS)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvFaAlKfoVW_2L7JskMp-49" value="/optimise" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
